@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html,
+html {
+	overflow-x: hidden;
+	/*background-color: hsla(0, 16%, 62%, 0.74);*/
+	background-color: hsla(0, 33%, 82%, 0.8);
+
+}
+
+.header {
+	border-style: hidden;
+	height: 0px;
+	background-color: white; 
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.nav ul li {
+	border-style: hidden;
+	font-size: 20px;
+	display: inline;
+	position: relative;
+	left: 0;
+	padding: 0;
+}
+
+.nav ul li a{
+	font-family: 'Francois One', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	color: #a35252;
+
+}
+
+.shiloh {
+	border-style: hidden;
+	background-color: hsla(0, 16%, 74%, 0.74);
+	padding-top: 4px;
+	margin-bottom: 20px;
+}
+
+.ss {
+	border-style: hidden;
+	border-bottom: solid;
+	width: 200px;
+	position: absolute;
+	top: 20%;
+	left: 83.5%;
+	color: #a35252;
+	font-style: italic;
+}
+
+.ns {
+	border-style: hidden;
+	border-top: solid;
+	width: 200px;
+	position: absolute;
+	top: 63.7%;
+	left: 7%;
+	color: #a35252;
+	font-style: italic;
+}
+
+.mick {
+	border-style: hidden;
+	background-color: hsla(0, 18%, 74%, 0.74);
+	margin-bottom: 20px;
+	text-align: right;
+	padding-top: 4px;
+}
+
+.name {
+	position: relative;
+	padding-right: 0px;
+	left: 3px;
+}
+
+.morph{
+	border-style: hidden;
+	background-color: hsla(0, 16%, 74%, 0.74);
+	padding-top: 4px;
+}
+
+.vector{
+	padding-right: 300px;
+	position: absolute;
+	left: 50px;
+	margin-top: 150px;
+	
+}
+
+.mag{
+	position: relative;
+	left: 800px;
+	top: 0px;
+	margin: 0px;
+}
+
+.mtitle{
+	border-style: hidden;
+	border-top: solid;
+	border-bottom: solid;
+	width: 270px;
+	position: absolute;
+	top: 140%;
+	left: 12%;
+	color: #696363;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.vp {
+	border-style: hidden;
+	border-top: solid;
+	border-bottom: solid;
+	width: 300px;
+	position: absolute;
+	top: 110.7%;
+	left: 15%;
+	color: #a35252;
+	font-style: italic;
+}
+
+
+.mp{
+	border-style: hidden;
+	border-top: solid;
+	border-bottom: solid;
+	width: 200px;
+	position: absolute;
+	top: 150.7%;
+	left: 43.5%;
+	color: #a35252;
+	font-style: italic;
+}
+
+.foots {
+	border-style: hidden;
+	position: relative;
+	width: 700px;
+	left: 530px;
+	color: #696363;
+	font-style: italic;
+	margin-top: 20px;
+}
+.disclaim {
+	border-style: hidden;
+	position: relative;
+	width: 700px;
+	left: 440px;
+	color: #696363;
+	font-style: italic;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 480px) {
+	.nav ul li {
+		border-style: hidden;
+		font-size: 20px;
+		display: block;
+		position: relative;
+		left: 0px;
+		padding: 0;
+		text-align: center;
+	}
+	.sp {
+		width:100%;
+	}
+	.sh {
+		width:100%;
+		height:250px;
+	}
+	.shiloh {
+		border-style: hidden;
+		background-color: hsla(0, 16%, 74%, 0.74);
+		padding-top: 4px;
+		margin-bottom: 20px;
+		width:100%;
+	}
+	.ss {
+		display: none;
+		border-style: hidden;
+		border-bottom: solid;
+		width: 300px;
+		position: absolute;
+		top: 121%;
+		left: 13%;
+		color: #a35252;
+		font-style: italic;
+		
+	}
+	.ns {
+		display: none;
+		border-style: hidden;
+		border-top: solid;
+		width: 200px;
+		position: absolute;
+		top: 160.7%;
+		left: 7%;
+		color: #a35252;
+		font-style: italic;
+	}
+	.name1 {
+		width: 100%;
+		height: 350px;
+	}
+	.name2 {
+		width: 100%;
+		height: 320px;
+	}
+	.face {
+		width: 100%;
+		
+	}
+	.magg {
+		width: 100%;
+	}
+	.mtitle {
+		display: none;
+	}
+	.vector{
+		position: relative;
+		margin-top: 0px;
+		max-width: 100%;
+		left: 0%;
+	}
+	.vp {
+		display: none;
+	}
+
+	.mag{
+		position: relative;
+		top: 0px;
+		margin: 0px;
+		left: 0%;
+		width: 100%;
+	}
+	.mp {
+		display: none;
+	}
+	.foots {
+		margin-top: 0px;
+		font-size: 8px;
+		position: relative;
+		left: 80px;
+		top: 4px;
+	}
+	.disclaim {
+		font-size: 5px;
+		position: relative;
+		left: 80px;
+		top: 5px;
+	}
+}

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+html,
+html {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.header {
+	border-style: hidden;
+	height: 0px;
+	background-color: white; 
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.nav ul li {
+	border-style: hidden;
+	font-size: 20px;
+	display: inline;
+	position: relative;
+	left: 0px;
+	padding: 0;
+}
+
+.nav ul li a{
+	font-family: 'Francois One', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	color: #ae9090;
+
+}
+/*
+.navi {
+	font-size: 25px;
+	padding: 0px;
+	width: 500px;
+	height: 40px;
+	border-style: hidden;
+	position: relative;
+	left: 200px;
+	top: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+*/
+.pic img {
+	border-style: hidden;
+	position: relative;
+	margin-left: 0px;
+}
+.title {
+	position: absolute;
+	top: 60%;
+	left: 51%;
+    font-size: 45px;
+	color: #ae9090;
+	font-family: 'Francois One', sans-serif;
+	font-weight: bold;
+}
+.i {
+	color: white;
+}
+
+.define {
+	position: absolute;
+	width: 350px;
+	top: 68%;
+	left: 70%;
+    font-size: 15px;
+	color: #D4D2D2;
+	font-family:  "Myriad Pro", Myriad, Verdana, Geneva, sans-serif;
+	font-style: italic;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 8s;
+  animation-name: fade;
+  animation-duration: 8s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 20px;
+		position: absolute;
+		top: 54%;
+		left: 40%;
+		color: #ae9090;
+		font-family: 'Francois One', sans-serif;
+		font-weight: bold;
+    }
+	.define {
+		position: absolute;
+		width: 150px;
+		top: 59%;
+		left: 66%;
+		font-size: 6px;
+		color: #D4D2D2;
+		font-family:  "Myriad Pro", Myriad, Verdana, Geneva, sans-serif;
+		font-style: italic;
+	}
+	.nav ul li {
+		border-style: hidden;
+		font-size: 20px;
+		display: block;
+		position: relative;
+		left: 0px;
+		padding: 0;
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

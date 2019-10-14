@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+html {
+	overflow-x: hidden;
+	background-color: lightgrey;
+}
+.header {
+	border-style: hidden;
+	height: 0px;
+	background-color: white; 
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.nav ul li {
+	border-style: hidden;
+	font-size: 20px;
+	display: inline;
+	position: relative;
+	left: 0px;
+	padding: 0;
+}
+
+.nav ul li a{
+	font-family: 'Francois One', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	color: #ae9090;
+
+}
+
+.one {
+	border-bottom-style: dashed;
+	background-color: pink;
+	width: 100px;
+	-webkit-animation-name: bl; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+	animation-name: bl;
+	animation-duration: 5s;
+}
+@keyframes bl {
+	0% {left:0px; top:0px;}
+	100% {left:0px; top:300px;}
+}
