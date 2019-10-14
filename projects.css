@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+html {
+	overflow-x: hidden;
+	background-color: #424242;
+}
+.header {
+	border-style: hidden;
+	height: 0px;
+	background-color: white; 
+	letter-spacing: 2px;
+	text-align: left;
+	margin-bottom: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+}
+
+.nav ul li {
+	border-style: hidden;
+	font-size: 20px;
+	display: inline;
+	position: relative;
+	left: 0px;
+	padding: 0;
+}
+
+.nav ul li a{
+	font-family: 'Francois One', sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	color: #ae9090;
+
+}
+
+
+.proj {
+	font-family: 'Poiret One', cursive;
+	font-size: 60px;
+	color: #ae9090;
+	margin-bottom: 10px;
+	font-style: oblique;
+}
+
+
+.video {
+	text-align: center;
+}
+
+.video controls {
+	width: 500px;
+}
+
+.about {
+	border-style: hidden;
+	position: relative;
+	margin-bottom: 40px;
+	padding: 20px 0px;
+	top: 10px;
+	/*height: 100px;*/
+	font-size: 15px;
+	color: #ae9090;
+	font-family: 'Philosopher', sans-serif;
+	font-style: italic;
+	text-align: center;
+}
+
+
