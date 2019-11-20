@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* CSS Document */
 html,
 html {
 	overflow-x: hidden;
@@ -7,11 +6,11 @@ html {
 }
 .header {
 	border-style: hidden;
-	height: 0px;
+	height: 0;
 	background-color: white; 
 	letter-spacing: 2px;
-	text-align: left;
-	margin-bottom: 0px;
+	text-align: center;
+	margin-bottom: 0;
 	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
 }
 
@@ -20,7 +19,7 @@ html {
 	font-size: 20px;
 	display: inline;
 	position: relative;
-	left: 0px;
+	left: 0;
 	padding: 0;
 }
 
@@ -31,23 +30,11 @@ html {
 	color: #ae9090;
 
 }
-/*
-.navi {
-	font-size: 25px;
-	padding: 0px;
-	width: 500px;
-	height: 40px;
-	border-style: hidden;
-	position: relative;
-	left: 200px;
-	top: 10px;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-}
-*/
+
 .pic img {
 	border-style: hidden;
 	position: relative;
-	margin-left: 0px;
+	margin-left: 0;
 }
 .title {
 	position: absolute;
@@ -118,7 +105,7 @@ html {
 		font-size: 20px;
 		display: block;
 		position: relative;
-		left: 0px;
+		left: 0;
 		padding: 0;
 		text-align: center;
 	}
